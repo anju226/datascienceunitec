@@ -34,4 +34,9 @@ z<- matr[1:2,]
 11. 21
 oz47<- matr[47,1]
 
-12.
+12. 37
+sum(is.na(datalines$Ozone))
+
+13.
+
+
