@@ -69,6 +69,35 @@ f(3)
 
 18. b) 10
 
-19. 
+19. a) f
 
+20. b) a collection of symbol/value pairs
+
+21. d) lexical scoping
+
+22. b) The values of free variables are searched for in the environment in which the function was defined
+
+23. b) All objects must be stored in memory
+
+24. a) It is the environment in which a function was called
+
+25. 7 (6.588)
+
+26. e) apply(iris[, 1:4], 2, mean)
+
+27. 34
+
+
+y<-10
+f<-function (x) {
+  y <- 2
+  y^2+g(x)
+  
+}
+g<-function(x) {
+  x*y
+}
+
+f(3)
+ 
 
